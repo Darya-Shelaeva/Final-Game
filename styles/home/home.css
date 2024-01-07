@@ -1,0 +1,550 @@
+body {
+  background-color: black;
+  overflow-x: hidden;
+}
+
+header {
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 42px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 88px;
+}
+
+.link {
+  text-decoration: none;
+  color: #FFF;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.home_content2 {
+  margin: 220px 0 0 147px;
+}
+
+.logo2 {
+  margin: 0 0 15px 55px;
+  color: #FFF;
+  font-family: "Poppins";
+  font-size: 29px;
+  font-weight: 800;
+  line-height: 44px;
+}
+
+.unity-container {
+  position: absolute;
+  top: 609px;
+  margin-left: 22px;
+}
+
+.unity {
+  width: 96px;
+  height: 30px;
+}
+
+.img_container {
+  display: flex;
+}
+
+.joy_stick {
+  position: absolute;
+  top: 0;
+  margin-left: 200px;
+  z-index: -1;
+}
+
+.cry-container {
+  position: absolute;
+  top: 202px;
+  margin-left: 56px;
+}
+
+.cry {
+  width: 101px;
+  height: 99px;
+}
+
+.unreal-container {
+  position: absolute;
+  top: 218px;
+  margin-left: 600px;
+}
+
+.unreal {
+  width: 59px;
+  height: 64px;
+}
+
+.trending_games {
+  width: 1200px;
+  display: flex;
+  margin: 178px 0 0 147px;
+}
+
+.trend_text {
+  color: #FFF;
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.see_all {
+  width: 139px;
+  height: 57px;
+  margin-left: 730px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.11);
+  color: #FFF;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 37.5px;
+  cursor: pointer;
+}
+
+.card_container {
+  margin: 0 auto;
+  display: flex;
+  gap: 47px;
+}
+
+.game_card {
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.followers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.follow {
+  color: #FFF;
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.card_home {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.spider__man {
+  margin-top: 129px;
+  display: block;
+  background: linear-gradient(181deg, #000 0.82%, #4A2800 129.1%);
+  -webkit-backdrop-filter: blur(7px);
+          backdrop-filter: blur(7px);
+}
+
+.spider__wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.spider__text {
+  width: 826px;
+  text-align: center;
+}
+
+.spider__head {
+  color: white;
+  font-family: "Poppins";
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.spider__about {
+  width: 545px;
+  margin: 67px 0 46px 147px;
+}
+
+.spider__head2 {
+  color: white;
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.spider__spider {
+  color: #FFF;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.spider__dots {
+  position: absolute;
+  margin: -50px 0 0 972px;
+  z-index: -1;
+}
+
+.spider__img__wrap {
+  margin-left: 147px;
+  z-index: 2;
+}
+
+.game__development {
+  margin: 0 auto;
+  background-image: url("../../img/development/fon.png");
+  background-size: cover;
+}
+
+.game__head {
+  color: white;
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.spider__wrap2 {
+  display: flex;
+  justify-content: center;
+}
+
+.game__dev__text {
+  width: 826px;
+  text-align: center;
+  margin-top: 93px;
+}
+
+.game__dev__text2 {
+  width: 820px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.game__dev__text3 {
+  color: white;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.game__dev__card__cont {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 100px;
+  margin-top: 99px;
+  padding-bottom: 93px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.game__dev__card {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.game__dev__img {
+  width: 65px;
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.ellipse {
+  position: absolute;
+  z-index: 1;
+}
+
+.icon {
+  z-index: 2;
+}
+
+.icon__text {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.icon__wrap {
+  width: 220px;
+}
+
+.recent__projects {
+  background: linear-gradient(149deg, #090300 18.81%, rgba(9, 3, 0, 0) 199.4%);
+}
+
+.recent__wrap {
+  margin-top: 148px;
+  display: flex;
+  justify-content: center;
+}
+
+.recent__wrap2 {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.projects__wrap {
+  width: 305px;
+  height: 56px;
+  text-align: center;
+}
+
+.projects__wrap2 {
+  width: 497px;
+  height: 57px;
+  text-align: center;
+  margin-bottom: 71px;
+}
+
+.resent__projects__text {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.resent__projects__text2 {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.recent__projects__img {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 27px;
+}
+
+.see {
+  margin-top: 72px;
+}
+
+.see_all_2 {
+  width: 139px;
+  height: 57px;
+  margin-left: 730px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.11);
+  color: #FFF;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 37.5px;
+  cursor: pointer;
+}
+
+.projects__wrap3 {
+  margin: 105px 0 0 160px;
+}
+
+.resent__projects__text3 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.resent__projects__text4 {
+  margin-top: 32px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.stay__loop {
+  width: 1170px;
+  height: 189px;
+  border-radius: 15px;
+  background: #1C140F;
+  margin: 74px 0 163px 160px;
+  display: flex;
+}
+
+.stay__loop__wrap {
+  margin: 0 0 0 56px;
+}
+
+.stay__text {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.stay__text2 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.stay__loop__input {
+  margin: auto;
+  width: 386px;
+  height: 48px;
+  border-radius: 8px;
+  background: #FFF;
+}
+
+.input__text {
+  color: #898989;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 300;
+  margin: 14px 0 14px 20px;
+  border: none;
+}
+
+.continue {
+  width: 105px;
+  height: 37px;
+  border-radius: 8px;
+  background: #DC7000;
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  float: right;
+  margin: 6px 6px 5px 0;
+  cursor: pointer;
+}
+
+.about__game {
+  display: flex;
+}
+
+.about__logo {
+  width: 372px;
+  margin: 73px 0 145px 62px;
+}
+
+.about__logo__l {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.about__logo__text {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.about__logo__text2 {
+  padding-top: 40px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.about__logo__text3 {
+  padding-top: 20px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.about__logo__text4 {
+  padding-top: 32px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.about__us_about {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.about__us {
+  width: 117px;
+  height: 293px;
+  margin: 79px 0 56px 78px;
+}
+
+.contact__us {
+  width: 282px;
+  height: 293px;
+  margin: 79px 0 53px 144px;
+}
+
+.icons__wrap {
+  margin-top: 130px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ellipse2 {
+  z-index: -1;
+}
+
+.icon2 {
+  position: absolute;
+  z-index: 2;
+  margin-bottom: 10px;
+}
+
+.icons__wrap2 {
+  margin-top: 130px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.icons__media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  width: 1440px;
+  height: 83px;
+  margin: 53px 0 0 0;
+  color: white;
+  text-align: center;
+  position: absolute;
+}
+
+.footer_text {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 29px 0 29px 0;
+}/*# sourceMappingURL=home.css.map */

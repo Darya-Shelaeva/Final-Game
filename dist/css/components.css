@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  overflow-x: hidden;
+}
+
+header {
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 42px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 88px;
+}
+
+.link {
+  text-decoration: none;
+  color: #FFF;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=components.css.map */
