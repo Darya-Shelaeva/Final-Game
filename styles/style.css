@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 body {
   background-color: black;
   overflow-x: hidden;
@@ -55,7 +54,7 @@ header {
 }
 
 .home_content2 {
-  margin: 220px 0 0 147px;
+  margin: 120px 0 0 147px;
 }
 
 .logo2 {
@@ -91,7 +90,7 @@ header {
 
 .cry-container {
   position: absolute;
-  top: 202px;
+  top: 120px;
   margin-left: 56px;
 }
 
@@ -173,7 +172,7 @@ header {
   display: block;
   background: linear-gradient(181deg, #000 0.82%, #4A2800 129.1%);
   -webkit-backdrop-filter: blur(7px);
-  backdrop-filter: blur(7px);
+          backdrop-filter: blur(7px);
 }
 
 .spider__wrap {
@@ -607,6 +606,7 @@ footer {
 
 .button:hover {
   background-color: #794b1b;
+  animation-delay: 1s;
 }
 
 .button:active {
@@ -700,50 +700,39 @@ footer {
   .logo {
     margin: 0;
   }
-
   .header_right {
     flex-wrap: wrap;
     gap: 10px;
   }
-
   .home_content {
     margin: 0;
   }
-
   .work {
     font-size: 30px;
     font-weight: 500;
     line-height: 30px;
   }
-
   .picture {
     display: none;
   }
-
   .logo2 {
     margin: 0;
   }
-
   .home_content2 {
     margin: 0;
   }
-
   .unity {
     display: none;
   }
-
   .cry {
     display: none;
   }
-
   .joy_stick {
     display: none;
   }
-
   .unreal {
     display: none;
   }
-
   .trending_games {
     width: 650px;
     display: flex;
@@ -751,170 +740,135 @@ footer {
     align-items: center;
     margin: 0;
   }
-
   .see_all {
     margin-left: 20px;
   }
-
   .card_home {
     width: 100%;
   }
-
   .card_container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px 20px;
   }
-
   .game_card {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
   .followers {
     justify-content: left;
   }
-
   .spider__about {
     margin: 0;
     width: 400px;
     text-align: center;
   }
-
   .spider__dots {
     display: none;
   }
-
   .spider__img {
     display: none;
   }
-
   .spider__wrap2 {
     width: 400px;
   }
-
   .game__head {
     font-size: 18px;
     font-weight: 400;
   }
-
   .game__dev__card__cont {
     width: 400px;
     flex-direction: column;
     align-items: center;
     margin-left: 0px;
   }
-
   .game__development {
     background-image: none;
   }
-
   .recent__projects__img {
     width: 400px;
     flex-direction: column;
     align-items: center;
   }
-
   .recent__projects {
     align-items: center;
   }
-
   .see {
     text-align: center;
   }
-
   .see_all_2 {
     margin-left: 0px;
   }
-
   .projects__wrap3 {
     margin: 0 auto;
     text-align: center;
   }
-
   .stay__loop {
     margin: 0 auto;
     width: 400px;
   }
-
   .stay__text {
     font-size: 18px;
   }
-
   .stay__text2 {
     font-size: 15px;
   }
 }
-
 @media screen and (max-width: 481px) {
   .nav {
     display: none;
   }
-
   .work_container {
     width: 300px;
     height: 134px;
   }
-
   .work_text_container {
     width: 300px;
     height: 101px;
   }
-
   .details {
     margin-top: 70px;
     width: 100px;
     height: 45px;
     font-size: 10px;
   }
-
   .trending_games {
     margin: 0;
     width: 350px;
   }
-
   .game_card {
     text-align: center;
   }
-
   .spider__about {
     text-align: center;
     width: 400px;
   }
-
   .spider__head {
     font-size: 20px;
     font-weight: 400;
   }
-
   .about__game {
     margin: auto;
     width: 100px;
     flex-direction: column;
     align-items: center;
   }
-
   .about__logo {
     width: 200px;
     margin: 0 auto;
   }
-
   .about__us {
     width: 200px;
     margin: 0 auto;
   }
-
   .contact__us {
     width: 200px;
     margin: 0 auto;
   }
-
   footer {
     width: 300px;
     margin: 0 auto;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

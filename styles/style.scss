@@ -27,10 +27,13 @@
     color: #FFF;
     font-family: 'Poppins';
     cursor: pointer;
+    
 }
 
 .button:hover {
     background-color: #794b1b;
+    animation-delay: 1s;
+    
 }
 
 .button:active {
